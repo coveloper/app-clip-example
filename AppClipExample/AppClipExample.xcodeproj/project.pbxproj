@@ -99,6 +99,7 @@
 		FC57C8D028A877F4001D9D8F /* AppClipExampleClipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppClipExampleClipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC57C8D428A877F4001D9D8F /* AppClipExampleClipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppClipExampleClipUITests.swift; sourceTree = "<group>"; };
 		FC57C8D628A877F4001D9D8F /* AppClipExampleClipUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppClipExampleClipUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FC8DF8AE28B1990200A210CF /* AppClipExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AppClipExample.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +177,7 @@
 		FC57C88628A86EB7001D9D8F /* AppClipExample */ = {
 			isa = PBXGroup;
 			children = (
+				FC8DF8AE28B1990200A210CF /* AppClipExample.entitlements */,
 				FC57C88728A86EB7001D9D8F /* AppClipExampleApp.swift */,
 				FC57C88928A86EB7001D9D8F /* ContentView.swift */,
 				FC57C88B28A86EBA001D9D8F /* Assets.xcassets */,
@@ -668,6 +670,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AppClipExample/AppClipExample.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AppClipExample/Preview Content\"";
@@ -698,6 +701,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AppClipExample/AppClipExample.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AppClipExample/Preview Content\"";
