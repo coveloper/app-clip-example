@@ -4,8 +4,8 @@
 <dict>
 	<key>com.apple.developer.associated-domains</key>
 	<array>
-		<string>applinks:covelop.org</string>
-		<string>appclips:covelop.org</string>
+		<string>applinks:appclip.covelop.org</string>
+		<string>appclips:appclip.covelop.org</string>
 	</array>
 </dict>
 </plist>
