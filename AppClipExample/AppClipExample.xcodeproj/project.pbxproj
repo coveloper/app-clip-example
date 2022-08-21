@@ -100,6 +100,7 @@
 		FC57C8D428A877F4001D9D8F /* AppClipExampleClipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppClipExampleClipUITests.swift; sourceTree = "<group>"; };
 		FC57C8D628A877F4001D9D8F /* AppClipExampleClipUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppClipExampleClipUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		FC8DF8AE28B1990200A210CF /* AppClipExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AppClipExample.entitlements; sourceTree = "<group>"; };
+		FC8DF8AF28B1B5E000A210CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,6 +178,7 @@
 		FC57C88628A86EB7001D9D8F /* AppClipExample */ = {
 			isa = PBXGroup;
 			children = (
+				FC8DF8AF28B1B5E000A210CF /* Info.plist */,
 				FC8DF8AE28B1990200A210CF /* AppClipExample.entitlements */,
 				FC57C88728A86EB7001D9D8F /* AppClipExampleApp.swift */,
 				FC57C88928A86EB7001D9D8F /* ContentView.swift */,
@@ -677,6 +679,7 @@
 				DEVELOPMENT_TEAM = VK4YEHB7P5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AppClipExample/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -708,6 +711,7 @@
 				DEVELOPMENT_TEAM = VK4YEHB7P5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AppClipExample/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
