@@ -11,7 +11,16 @@ import SwiftUI
 struct AppClipExampleClipApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ZStack {
+                ContentView()
+            }
+            .onContinueUserActivity(NSUserActivityTypeBrowsingWeb) { userActivity in
+                guard let incomingURL = userActivity.webpageURL else {
+                    return
+                }
+                print(incomingURL)
+            }
+            
         }
     }
 }
