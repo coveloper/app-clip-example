@@ -18,6 +18,7 @@ struct AppClipExampleClipApp: App {
                 guard let incomingURL = userActivity.webpageURL else {
                     return
                 }
+                // Parse incomingURL and add custom logic for your app
                 print(incomingURL)
             }
             
